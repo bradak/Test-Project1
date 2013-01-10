@@ -8,7 +8,7 @@ You are <?php echo $_POST["age"]; ?> years old.
 echo "<br>";
 
 $timestamp = time();
-echo "The current date is: " . date("m/d/Y  g:i:s") . "<br>";
+echo "The current date is: " . date("m/d/Y  H:i:s") . "<br>";
 
 ?>
 
